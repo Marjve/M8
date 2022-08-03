@@ -51,10 +51,27 @@ header .container nav ul li{
 header .container nav ul li a{
     color: #863503;
 }
+header .container nav ul li .search-input-wrapper{
+    position: relative;
+}
+header .container nav ul li .search-input-wrapper img{
+    position: absolute;
+    right:17px;
+    top:8px;
+}
+header .container nav ul li #search-input{
+    width: 226px;
+    height: 38px;
+    background: rgba(210, 158, 126, 0.1);
+    border-radius: 7px;
+    border: none;
+    padding:5px 40px 5px 20px;
+}
 .home-board{
     height: 826px;
     width: 100%;
-    background: rgba(134, 53, 3, 0.07);;
+    background: rgba(134, 53, 3, 0.07);
+    position: relative;
 }
 .home-board .container{
     display: flex;
@@ -83,4 +100,14 @@ header .container nav ul li a{
     color: #863503;
     margin-top: 43px;
     margin-bottom:120px;
+}
+.home-board .container .board-box2 .white-bg{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.home-board .container .board-box2 .coffees-img{
+    position: absolute;
+    right: 0;
+    top:120px;
 }
