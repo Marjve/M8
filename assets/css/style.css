@@ -111,3 +111,50 @@ header .container nav ul li #search-input{
     right: 0;
     top:120px;
 }
+.section2{
+    padding-top: 126px;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+.todays-specials{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-top: 110px;
+}
+.todays-specials-title{
+    font-weight: 600;
+    font-size: 32px;
+    border-bottom: 2px solid #056B11;
+    display: inline;
+    color: #863503;
+    padding-bottom: 26px;
+}
+.todays-specials p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+}
+.todays-specials p span:first-child{
+    font-weight: 600;
+    font-size: 20px;
+    color: #05520D;
+}
+.todays-specials p span:last-child{
+    font-weight: 600;
+    font-size: 15px;
+    color: #7D0202;
+}
+.section2 .more-options-btn{
+    font-weight: 600;
+    font-size: 18px;
+    background: none;
+    border: 2px solid #05520D;
+    border-radius: 15px;
+    padding: 11px 28px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
