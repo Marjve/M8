@@ -246,8 +246,6 @@ footer{
 .menu-list .active{
     color: #863503;
 }
-.product-content{
-}
 .product-content section{
     display: flex;
     width: 100%;
@@ -349,10 +347,63 @@ footer{
     font-size: 16px;
     color: #863503;
 }
-
+.contact-board input, .contact-board textarea{
+    padding: 21px 38px;
+}
 .contact-board #firstName, .contact-board #lastName, .contact-board #inputEmail{
     width: 544px;
     height: 62px;   
     border: 1px solid #863503;
     border-radius: 20px;
+    margin-bottom: 35px;
 }  
+.contact-board .input-wrapper{
+    margin-top: 120px;
+    position: relative;
+    padding-bottom: 120px;
+}
+.contact-board .input-wrapper #text-area{
+    width: 1118px;
+    height: 177px;
+    border: 1px solid #863503;
+    border-radius: 20px;
+}
+.contact-board .contact-required{
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.red{
+    color:red;
+}
+.contact-btn{
+    font-weight: 600;
+    font-size: 18px;
+    background: none;
+    border: 2px solid #05520D;
+    border-radius: 15px;
+    padding: 11px 28px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    transition: 300ms;
+    display: block;
+}
+.contact-sent{
+    text-align: center;
+    display: none;
+}
+.contact-sent img{
+    margin: 100px 0;
+}
+.contact-sent p{
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 17px;   
+    color: #863503;
+}
+.contact-sent p:last-child{
+    margin-top: 100px;
+}
