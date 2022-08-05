@@ -120,8 +120,8 @@ header .container nav ul li #search-input{
 .todays-specials{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
     margin-top: 110px;
+    cursor: pointer;
 }
 .todays-specials-title{
     font-weight: 600;
@@ -129,7 +129,14 @@ header .container nav ul li #search-input{
     border-bottom: 2px solid #056B11;
     display: inline;
     color: #863503;
-    padding-bottom: 26px;
+    padding: 0 5px 26px 5px;
+}
+.section2 .todays-specials .box img{
+    transition: 300ms;
+}
+.section2 .todays-specials .box img:hover{
+    border-radius: 11.1985px;
+    transform:scale(1.1)
 }
 .todays-specials p{
     display: flex;
@@ -157,4 +164,55 @@ header .container nav ul li #search-input{
     position: absolute;
     right: 0;
     bottom: 0;
+    cursor: pointer;
+    transition: 300ms;
+}
+.section2 .more-options-btn:hover{
+    background: #05520D;
+    color:#fff;
+}
+footer{
+    background: rgba(183, 138, 109, 0.24);
+    margin-top: 176px;
+    padding-top: 36px;
+    padding-bottom: 10px;
+    cursor:default
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu .social-icons{
+    margin-top: 64px;
+}
+.footer-menu .footer-box1 a:not(:last-child){
+    margin-right: 50px;
+}
+.footer-menu .footer-box1 p{
+    font-size: 24px;
+    color: #400404;
+    margin-top: 67px;
+}
+.footer-menu .footer-box2 h4, .footer-menu .footer-box3 h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #05520D;
+    margin-bottom: 45px;
+}
+.footer-menu .footer-box2 p, .footer-menu .footer-box3 p{
+    font-size: 18px;
+    color: #863503;
+    margin-bottom: 28px;
+}
+.footer-menu .footer-box3 button{
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #863503;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer-menu .footer-box3 .contact-email{
+    text-decoration: underline;
+    cursor: pointer;
 }
